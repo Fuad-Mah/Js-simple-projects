@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    background-color: lightgreen;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container .temperature {
+    padding: 15px;
+}
+
+.container .temperature input {
+    padding: 8px;
+    border: none;
+    background-color: rgba(201, 244, 201, 0.575);
+    margin-left: 40px;
+}
+
+.container .temperature input:focus {
+    outline: none;
+    border: none;
+}
+
+
+
+
